@@ -14,13 +14,7 @@ body{
 
 /*------HEADER-------*/
 
-.historia h2{
-    font-size: 40px;
-}
 
-.historia{
-    margin: 5px;
-}
 
 header{
     background-color: #339F63;
@@ -67,11 +61,18 @@ header nav ul li a:hover{
 
 /*------MAIN-------*/
 
+.historia h2{
+    font-size: 40px;
+}
+
+.historia{
+    margin: 5px;
+}
+
 .container-fluid{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(51,159,99,1) 48%, rgba(255,255,255,1) 100%);
 }
-
 
 .grid-galeria{
     display:grid;
