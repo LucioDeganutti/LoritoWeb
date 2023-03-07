@@ -2,21 +2,19 @@
 $color-principal: #339F63;
 $color-secundario: #F9D625;
 
-$colores:
-#339F63,
-#F9D625;
+$colores: #339F63,
+    #F9D625;
 
-$font-size:
-15px,
-20px,
-25px,
-30px,
-35px,
-50px;
+$font-size: 15px,
+    20px,
+    25px,
+    30px,
+    35px,
+    50px;
 
 //* MAPAS
 
-$boton:(
+$boton: (
     bg-boton: black,
     color-texto: white,
     border-boton: solid 1px grey,
@@ -24,14 +22,14 @@ $boton:(
 
 //* EXTENDS
 
-%flex{
+%flex {
     display: flex;
     align-items: center;
 }
 
 //* MIXINS
 
-@mixin flex ($flex, $justify, $align){
+@mixin flex ($flex, $justify, $align) {
     display: $flex;
     justify-content: $flex;
     align-items: $align;

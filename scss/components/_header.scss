@@ -1,5 +1,5 @@
 /*!----------HEADER----------*/
-header{
+header {
     background-color: $color-principal;
     position: sticky;
     top: 0;
@@ -7,7 +7,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    h1{
+
+    h1 {
         margin-left: 10px;
         margin-bottom: 5px;
         font-family: 'Cabin', sans-serif;
@@ -15,25 +16,29 @@ header{
         font-weight: 800;
         color: $color-secundario;
     }
-    nav{
-        ul{
+
+    nav {
+        ul {
             list-style: none;
             font-size: 25px;
             font-style: bold;
             align-items: center;
-            margin-bottom: 0;  
-            li{
+            margin-bottom: 0;
+
+            li {
                 display: inline-block;
                 margin: 10px 15px 10px;
-                a{
+
+                a {
                     text-decoration: none;
                     color: $color-secundario;
                     transition: 0.5s;
-                    &:hover{
-                        color:black;
-                        }
+
+                    &:hover {
+                        color: black;
                     }
                 }
             }
         }
-    }   
+    }
+}
